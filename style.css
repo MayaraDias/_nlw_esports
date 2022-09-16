@@ -110,6 +110,7 @@ header div:hover {
 .wrapper .gamesList li a img {
   width: 9rem;
   height: 12rem;
+  border-radius: 0.8rem;
 }
 
 .wrapper ul li {
