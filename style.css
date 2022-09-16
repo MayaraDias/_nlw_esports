@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+  --hue: 257;
+  --section-color: hsl(var(--hue) 16% 18%);
+  --title-color: hsl(calc(var(--hue) - 257) 0% 100%);
+  --paragraph-color: hsl(calc(var(--hue) - 17) 5% 65%);
+
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(./assets/Fundo.jpg);
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #121214;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+header div {
+  display: flex;
+  margin-block: 3.2rem;
+  width: 12rem;
+  border-radius: 50%;
+  padding: 4px;
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+  transition: transform 0.3s;
+}
+
+header div:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+}
+
+/* ======== Elementos usados em outras partes do projeto ===========*/
+
+.section {
+  width: 58rem;
+  margin-bottom: 2.4rem;
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+  padding-top: 4px;
+  border-radius: 10px;
+}
+
+.wrapper {
+  background-color: var(--section-color);
+  padding: 2.4rem 3.2rem 3.2rem;
+  border-radius: 8px;
+}
+
+.wrapper h2 {
+  color: var(--title-color);
+  font-size: 2.4rem;
+  line-height: 3.84rem;
+  font-weight: 900;
+  letter-spacing: -0.47px;
+}
+
+.wrapper p {
+  color: var(--paragraph-color);
+  font-size: 1.6rem;
+  line-height: 2.56rem;
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
+
+.wrapper ul {
+  display: flex;
+  gap: 1.6rem;
+  border-radius: 8px;
+}
+
+/* ============ SECTION GAMES =============*/
+
+.wrapper .gamesList li a img {
+  width: 9rem;
+  height: 12rem;
+}
+
+.wrapper ul li {
+  transition: transform 0.3s;
+}
+
+.wrapper ul li:hover {
+  transform: scale(1.1);
+}
+
+/* =========== SECTION CHANNELS ==========*/
+.wrapper .channelList li a img {
+  width: 7rem;
+  height: auto;
+}
+
+/* =========== SECTION SOCIAL LINKS ======*/
+
+.medias a {
+  font-size: 3.2rem;
+  color: white;
+}
+
+header div {
+  animation: fromTop 0.7s 0.7s backwards;
+}
+
+@keyframes fromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main section {
+  animation: fromLeft 0.7s backwards;
+}
+
+main section:nth-child(1) {
+  animation-delay: 0;
+}
+
+main section:nth-child(2) {
+  animation-delay: 0.7s;
+}
+
+main section:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes fromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
