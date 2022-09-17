@@ -128,6 +128,11 @@ header div:hover {
 }
 
 /* =========== SECTION SOCIAL LINKS ======*/
+.wrapper .moviesList li a img {
+  width: 10rem;
+  height: auto;
+  border-radius: 0.8rem;
+}
 
 .medias a {
   font-size: 3.2rem;
