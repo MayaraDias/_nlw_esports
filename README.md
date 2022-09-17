@@ -17,7 +17,7 @@ A ideia é um a criação de um site que reune os jogos e canais preferidos e di
 
 - pseudo classe hover;
 - seleção de elementos com pseudo-classe nth:child();
-- animações utilizando @keyframes;
+- animações utilizando @keyframes e
 - organização dos elementos com display flex;
 
 ### 🖥️ Resultado Final
