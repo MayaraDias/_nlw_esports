@@ -6,7 +6,8 @@ Projeto desenvolvido no evento Next Level Week - NLW - da Rocketseat 🚀
 
 A ideia é um a criação de um site que reune os jogos e canais preferidos e disponibilizar as redes sociais.
 
-![preview](./.github/preview.png)
+![preview](https://user-images.githubusercontent.com/86054136/190834596-f0d578d2-17de-4ef2-a831-7bd8f7bd9601.png)
+
 
 ## 🛠️ Tecnologias utilizadas:
 
